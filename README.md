@@ -3,6 +3,7 @@ Answer
 
 @HappyCase 
 @Test01
+
 public void testExampleWithCorrectValues() {
     String validEmail = "george.bluth@reqres.in";
     String validPassword = "georgebluth";
@@ -25,6 +26,7 @@ public void testExampleWithCorrectValues() {
 }
 
 @Test03
+
 public void testExampleWithCorrectValues() {
     String validEmail = "emma.wong@reqres.inn";
     String validPassword = "emmawong";
@@ -36,8 +38,10 @@ public void testExampleWithCorrectValues() {
 }
 
 
+
 @Negative Case
 @Test01
+
 public void testExampleWithIncorrectEmail() {
     String invalidEmail = "eve@reqres.in";
     String validPassword = "eveholt";
@@ -51,6 +55,7 @@ public void testExampleWithIncorrectEmail() {
 
 
 @Test02
+
 public void testExampleWithIncorrectPassword() {
     String validEmail = "charles.morris@reqres.in";
     String invalidPassword = "charless";
@@ -63,6 +68,7 @@ public void testExampleWithIncorrectPassword() {
 }
 
 @Test03
+
 public void testExampleWithIncorrectPasswordEmail() {
     String validEmail = "morris@reqres.in";
     String invalidPassword = "charless";
@@ -75,6 +81,7 @@ public void testExampleWithIncorrectPasswordEmail() {
 }
 
 @Test04
+
 public void testExampleWithEmptyPassword() {
     String validEmail = "tracey.ramos@reqres.in";
     String invalidPassword = " ";
@@ -87,6 +94,7 @@ public void testExampleWithEmptyPassword() {
 }
 
 @Test04
+
 public void testExampleWithEmptyEmail() {
     String validEmail = " ";
     String invalidPassword = "traceyramos";
@@ -99,6 +107,7 @@ public void testExampleWithEmptyEmail() {
 }
 
 @Test04
+
 public void testExampleWithEmptyEmailPassword() {
     String validEmail = " ";
     String invalidPassword = "";
