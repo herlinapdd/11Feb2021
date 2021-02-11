@@ -5,9 +5,9 @@ public void testExampleWithCorrectValues() {
     String validPassword = "georgebluth";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(true, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(true, responseOfExecutingApiWithCorrectValues);
 }
 
 @Test02
@@ -16,9 +16,9 @@ public void testExampleWithCorrectValues() {
     String validPassword = "janetweaver";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(true, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(true, responseOfExecutingApiWithCorrectValues);
 }
 
 @Test03
@@ -27,9 +27,9 @@ public void testExampleWithCorrectValues() {
     String validPassword = "emmawong";
     
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(true, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(true, responseOfExecutingApiWithCorrectValues);
 }
 
 
@@ -40,9 +40,9 @@ public void testExampleWithIncorrectEmail() {
     String validPassword = "eveholt";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithIncorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithIncorrectValues = to get a response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithIncorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithIncorrectValues);
 
 }
 
@@ -53,9 +53,9 @@ public void testExampleWithIncorrectPassword() {
     String invalidPassword = "charless";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithCorrectValues);
 
 }
 
@@ -65,9 +65,9 @@ public void testExampleWithIncorrectPasswordEmail() {
     String invalidPassword = "charless";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithCorrectValues);
 
 }
 
@@ -77,9 +77,9 @@ public void testExampleWithEmptyPassword() {
     String invalidPassword = " ";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithCorrectValues);
 
 }
 
@@ -89,9 +89,9 @@ public void testExampleWithEmptyEmail() {
     String invalidPassword = "traceyramos";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = to get a response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithCorrectValues);
 
 }
 
@@ -101,8 +101,8 @@ public void testExampleWithEmptyEmailPassword() {
     String invalidPassword = "";
 
     //to get a response from the api
-    boolean responseOfExecutingYourApiWithCorrectValues = how you get a response from the api
+    boolean responseOfExecutingApiWithCorrectValues = tp getoa response from the api
 
-    Assert.assertEquals(false, responseOfExecutingYourApiWithCorrectValues);
+    Assert.assertEquals(false, responseOfExecutingApiWithCorrectValues);
 
 }
